@@ -7,7 +7,7 @@
 body {
     display: flex;
     height: 100vh;
-    background: #393434;
+    background-color: #252525;
     justify-content: center;
 }
 
@@ -21,8 +21,8 @@ main {
 
 ul {
     list-style-type: none;
-    padding-bottom: 12px;
     padding-left: 12px;
+    padding-bottom: 12px;
     color: #fff;
     overflow: auto;
 }
@@ -32,13 +32,13 @@ input:focus {
 }
 
 input::placeholder {
-    color: #c7c0c0;
+    color: #860041;
 }
 
 input {
-    color: white;
     padding: 12px;
     border-radius: 12px;
-    background-color: #3C4730;
+    background-color: #DF6DA4;
+    color: #fff;
     border: none;
 }
