@@ -38,7 +38,7 @@ input.addEventListener("keypress", function (event) {
     if (event.key == "Enter") {
 
         // create 'unique' id for message   
-        const messageId = new Date()  // 27/10 9.52 message
+        const messageId = new Date().toUTCString()  // 27/10 9.52 message
 
 
         // send to database
