@@ -10,7 +10,7 @@ const firebaseConfig = {
     storageBucket: "pog22-8b683.appspot.com",
     messagingSenderId: "793659510891",
     appId: "1:793659510891:web:2fd69d58c30ea247b7e12e",
-    databaseURL: "https://pog22-8b683-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL: "https://chat-prog22-default-rtdb.europe-west1.firebasedatabase.app"
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
